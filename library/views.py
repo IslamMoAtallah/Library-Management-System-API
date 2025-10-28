@@ -215,7 +215,7 @@ class TransactionViewSet(viewsets.ReadOnlyModelViewSet):
             )
 
         # Mark as returned
-        transaction.return_date = timezone.now()
+        
         transaction.save()
 
         return Response(
