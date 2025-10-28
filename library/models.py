@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 from django.core.validators import MinValueValidator
 
 
-
 # Create your models here.
 class Book(models.Model):
     title = models.CharField(max_length=200)
